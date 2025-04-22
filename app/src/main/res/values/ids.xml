@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnAddUser" type="id" />
+    <item name="btnRemoveUser" type="id" />
+    <item name="btnUpdateUser" type="id" />
+    <item name="btnViewUsers" type="id" />
+    <item name="txtAdminPanel" type="id" />
+    <item name="etEmail" type="id" />
+    <item name="etPassword" type="id" />
+    <item name="etUserId" type="id" />
+    <item name="tableLayout" type="id" />
+    <item name="recyclerViewUsers" type="id" />
+    <item name="txtUserId" type="id" />
+    <item name="txtPassword" type="id" />
+    <item name="txtEmail" type="id" />
+</resources>

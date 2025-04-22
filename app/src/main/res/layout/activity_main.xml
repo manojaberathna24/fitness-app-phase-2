@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fitnes"> <!-- Background image -->
+
+    <!-- Date and Time Display at the Top -->
+    <TextView
+        android:id="@+id/dateTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Loading date  time..."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+
+
+
+
+
+    <!-- Container for Buttons, centered -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Timer Button -->
+        <Button
+            android:id="@+id/timerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_border"
+            android:padding="20dp"
+            android:text="Timer"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/stopwatchButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_border"
+            android:padding="20dp"
+            android:text="Stopwatch"
+            android:textSize="18sp" />
+
+        <!-- Step Counter Button -->
+        <Button
+            android:id="@+id/stepCounterButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_border"
+            android:padding="20dp"
+            android:text="Step Counter"
+            android:textSize="18sp" />
+
+        <!-- Health Tips Button -->
+
+
+        <!-- Calories Calculator Button -->
+        <Button
+            android:id="@+id/caloriesCalculatorButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_border"
+            android:padding="20dp"
+            android:text="Calories Calculator"
+            android:textSize="18sp" />
+
+        <!-- BMI Calculator Button -->
+        <Button
+            android:id="@+id/bmiCalculatorButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_border"
+            android:padding="20dp"
+            android:text="BMI Calculator"
+            android:textSize="18sp" />
+
+
+
+
+        <Button
+            android:id="@+id/healthTipsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_border"
+            android:padding="20dp"
+            android:text="Health Tips"
+            android:textSize="18sp" />
+
+        <!-- Torch Button -->
+        <Button
+            android:id="@+id/torchButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:padding="20dp"
+            android:text="Emergency Light"
+            android:textSize="18sp" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/button_border"
+            android:padding="15dp"
+            android:text="Login"
+            android:textSize="18sp" />
+
+        <!-- Signup Button -->
+        <Button
+            android:id="@+id/btnSignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:padding="15dp"
+            android:text="Sign Up"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:padding="15dp"
+            android:text="Logout"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

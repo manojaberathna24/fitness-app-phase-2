@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5F5F62"
+    tools:ignore="ExtraText">
+
+    <Spinner
+        android:id="@+id/tipsSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:entries="@array/tips_categories"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/healthTipsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a category to view tips"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/tipsSpinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/photoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="399dp"
+        android:src="@drawable/tips"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+</RelativeLayout>

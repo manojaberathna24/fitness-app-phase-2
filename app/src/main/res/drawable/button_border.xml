@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#15A5EF"/> <!-- Blue color for button -->
+    <corners android:radius="10dp"/> <!-- Rounded corners -->
+    <stroke android:color="#0D0C0C" android:width="2dp"/> <!-- Blue border -->
+</shape>
